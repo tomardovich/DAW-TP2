@@ -1,0 +1,28 @@
+
+.row {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    flex: 70%; 
+}
+
+.sidebar {
+    flex: 30%;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-links li a {
+    border-top: none;
+}

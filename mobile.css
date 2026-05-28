@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #1a1a1a;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+}
+
+.header .date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.topnav {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icon {
+    color: white;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+}
+
+.nav-links {
+    display: none;
+    list-style-type: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-top: 1px solid #333;
+}
+
+.nav-links li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main-content, .sidebar {
+    flex: 100%;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.fake-img {
+    background-color: #ccc;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+}
