@@ -26,3 +26,14 @@
 .nav-links li a {
     border-top: none;
 }
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-submit {
+    grid-column: 1 / -1;
+    justify-self: center;
+}

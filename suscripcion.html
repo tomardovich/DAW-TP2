@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción - Cancha 33</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Cancha 33</h1>
+        <p class="date">17 de Junio del 2026</p>
+    </header>
+
+    <nav class="topnav">
+        <div class="menu-icon">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Fútbol Argentino</a></li>
+            <li><a href="#">Fútbol Internacional</a></li>
+            <li><a href="#">Polideportivo</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="card">
+            <h2 id="titulo-hola">HOLA</h2>
+            <p>Completá tus datos para suscribirte a nuestro diario.</p>
+            
+            <form id="form-suscripcion" class="form-grid">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <p class="error-msg" id="error-nombre"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <p class="error-msg" id="error-email"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password">
+                    <p class="error-msg" id="error-password"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="password-repeat">Repetir contraseña</label>
+                    <input type="password" id="password-repeat" name="password-repeat">
+                    <p class="error-msg" id="error-password-repeat"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad">
+                    <p class="error-msg" id="error-edad"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <p class="error-msg" id="error-telefono"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="direccion">
+                    <p class="error-msg" id="error-direccion"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                    <p class="error-msg" id="error-ciudad"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="cp">Código Postal</label>
+                    <input type="text" id="cp" name="cp">
+                    <p class="error-msg" id="error-cp"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="dni">DNI</label>
+                    <input type="number" id="dni" name="dni">
+                    <p class="error-msg" id="error-dni"></p>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" id="btn-enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h2>Cancha 33</h2>
+        <p>&copy; 2026 - Diario Deportivo Independiente.</p>
+    </footer>
+
+    <script src="suscripcion.js"></script>
+</body>
+</html>
